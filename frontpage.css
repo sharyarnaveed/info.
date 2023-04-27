@@ -1,0 +1,100 @@
+body {
+    background-color: #FAF3DD;
+}
+
+.navbar {
+    background-color: #CCCCCC;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+.navbar ul {
+
+    overflow: auto;
+}
+
+.navbar li {
+
+    margin: 20px 10px;
+    float: left;
+    list-style: none;
+}
+
+.navbar li a {
+    position: absolute;
+
+    padding: 8px 8px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#home {
+    /* border: 4px solid white; */
+    color: rgb(5, 5, 5);
+    position: absolute;
+    top: 25px;
+    right: 500px;
+}
+
+#contact {
+    /* border: 4px solid black; */
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    position: absolute;
+    top: 25px;
+    right: 377px;
+}
+
+#about {
+    /* border: 4px solid black; */
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    position: absolute;
+    top: 25px;
+    right: 266px;
+}
+
+#logo {
+    display: inline-block;
+    position: absolute;
+    left: -35px;
+    top: -50px;
+    width: 150px;
+    height: 90px;
+    /* border: 4px solid black; */
+    /* left: -25px;
+    top: -33px;
+    width: 80px;
+    height: 55px; */
+}
+
+.button {
+    display: inline-block;
+    border: 4px solid #CCCCCC;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+#contact:hover,
+#home:active {
+    color: white;
+    border: 4px solid black;
+    background-color: black;
+}
+
+#home:hover,
+#home:active {
+    color: white;
+    border: 4px solid black;
+    background-color: black;
+}
+
+#about:hover,
+#about:active {
+    color: white;
+    border: 4px solid black;
+    background-color: black;
+}
